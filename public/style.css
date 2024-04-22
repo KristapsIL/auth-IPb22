@@ -1,0 +1,32 @@
+label {
+  display: block;
+}
+
+.explanation {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+
+.flash {
+  opacity: 0;
+
+  visibility: hidden;
+  animation: disappear 3s;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  80% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
